@@ -26,7 +26,6 @@ const ModalStyled = styled.div`
   width: 100%;
   height: 100vh;
   z-index: 100;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,7 +43,7 @@ const ModalStyled = styled.div`
   .modal-content {
     margin: 0 1rem;
 
-    padding: 2rem;
+    padding: 2rem 3rem;
     position: relative;
     max-width: 630px;
     width: 100%;
